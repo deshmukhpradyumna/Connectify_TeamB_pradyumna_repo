@@ -1,0 +1,155 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-image : url("https://tse2.mm.bing.net/th?id=OIP.NbuBaaidg-zSWeRReKd6hwHaFj&pid=Api&P=0&h=180"); 
+  width: 100%;
+}
+
+.form-container {
+  text-align: center;
+
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  height: max-content;
+}
+
+.txt_field{
+  position: relative;
+ 
+  margin: 30px 0;
+}
+
+.txt_field input{
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  background: transparent;
+  outline:none;
+  border-bottom : 1px solid #fff;
+}
+
+.txt_field label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #adadad;
+  transform: translateY(-50%);
+  font-size: 20px;
+  pointer-events: none;
+  transition : 0.5s;
+}
+
+.txt_filed input:focus ~ label,
+.txt_field input:valid ~ label {
+  top: -5px;
+  left: 2;
+  color: #fff;
+  font-size: 18px;
+}
+input[type="Submit"]{
+  background-color: transparent;
+  color: white;
+}
+
+input[type="Submit"]:hover{
+  color: #ffffff;
+  background: #5ea0d5;
+  border: 1px solid #008cff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+     0 0 100px #008cff; 
+}
+
+.signup_link {
+  margin: 30px 0;
+  text-align: center;
+  font-size: 20px;
+  color: #918f7e;
+}
+
+.signup_link a{
+  color: hwb(186 50% 8%);
+  text-decoration: none;
+}
+
+.signup_link a:hover{
+  text-decoration: underline;
+}
+
+.logo {
+  margin-top: 0.5%;
+  width: 150px; 
+  margin-bottom: 10px;
+}
+
+.app-name {
+  color: #fff;
+  margin: 10px 0;
+  font-size: 36px;
+}
+
+.container{
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  /* margin-top: 3%; */
+}
+
+h2 {
+  color: #fff;
+  margin: 30px 0;
+  font-size: 26px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+.login-button {
+  background-color: transparent;
+}
+.login-button a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.login-button:hover {color: #ffffff;
+  background: #5ea0d5;
+  border: 1px solid #008cff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+     0 0 100px #008cff; 
+}
